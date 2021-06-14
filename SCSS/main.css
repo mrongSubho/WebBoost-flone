@@ -11465,4 +11465,10 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.li-bar {
+  background-color: #c5c4c4;
+  width: 1px;
+  height: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
