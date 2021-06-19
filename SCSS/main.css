@@ -11471,4 +11471,25 @@ fieldset:disabled .btn {
   width: 1px;
   height: 1rem;
 }
+
+.c-dropdown {
+  position: relative;
+}
+
+.c-dropdown ul {
+  display: none;
+  min-width: 125px;
+  position: absolute;
+  z-index: 220;
+  background-color: #ffff;
+  -webkit-box-shadow: 0 1px 7px -2px rgb;
+          box-shadow: 0 1px 7px -2px rgb;
+  padding: 1rem;
+  border-radius: 00.15rem;
+  margin-top: 00.15rem;
+}
+
+.c-dropdown:hover ul {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */
