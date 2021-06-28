@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+body {
+  background: #f6f6f6;
+  min-height: 100vh;
+  width: 100hw;
+}
+
+.li-bar {
+  background-color: #c5c4c4;
+  width: 1px;
+  height: 1rem;
+}
+
+.c-dropdown {
+  position: relative;
+}
+.c-dropdown ul {
+  display: none;
+  min-width: 125px;
+  position: absolute;
+  z-index: 220;
+  background-color: white;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 0.15rem;
+  margin-top: 0.15rem;
+}
+.c-dropdown:hover ul {
+  display: block;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 600px;
+  background: #f6f6f6;
+}
+
+.carousel-control-prev {
+  left: -10rem;
+  filter: invert(100%);
+}
+
+.carousel-control-next {
+  right: -10rem;
+  filter: invert(100%);
+}
+
+.carousel-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.carousel-content h1 {
+  font-size: 72px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 97px;
+}
+.carousel-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 30px;
+}
+.carousel-content btn-c {
+  padding: 0.8rem 3rem;
+  border: 1px solid #0000;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  margin-top: 3rem;
+}
+
+.single-banner {
+  border: 4px solid #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 6rem 0;
+}
+.single-banner img {
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+}
+.single-banner .banner-content {
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 40px;
+}
+.single-banner .banner-content h3 {
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 30px;
+  color: #617d05;
+  font-family: Cormorant Garamond;
+}
+.single-banner .banner-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 24px;
+  color: #010101;
+  font-family: Cormorant Garamond;
+  margin-bottom: 58px;
+}
+.single-banner .banner-content h4 span {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  color: #617d05;
+  font-family: Cormorant Garamond;
+}
+.single-banner .banner-content a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  border: 2px solid #617d05;
+  border-radius: 50%;
+  color: #617d05;
+}
+.single-banner .banner-content a:hover {
+  color: #aabb72;
+}
+.single-banner .banner-content a img:hover {
+  transform: scale(1.2);
+}
+.single-banner .banner-content a i {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+}
+.single-banner:hover a img {
+  transform: scale(1.2);
+}
+
+.section-title h3 {
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 30px;
+  display: inline-block;
+  position: relative;
+}
+.section-title h3::before, .section-title h3::after {
+  position: absolute;
+  content: "";
+  top: 17px;
+  width: 80px;
+  height: 2px;
+  background-color: #000;
+}
+.section-title h3::before {
+  left: -100px;
+}
+.section-title h3::after {
+  right: -100px;
+}
+
+/*# sourceMappingURL=custom.css.map */

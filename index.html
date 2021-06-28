@@ -6,16 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flone!</title>
 
-    <link rel="stylesheet" href="./SCSS/main.css">
-
-    
-    <!-- <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
-    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
-    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script> -->
-
-    <!-- <link rel="stylesheet" href="../node_modules/pixeden-stroke-7-icon/pe-icon-7-stroke/dist/pe-icon-7-stroke.css"> -->
+    <!-- Style -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/custom.css">
     <link rel="stylesheet" href="./icons/Icon-font-7-stroke/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="./icons/Icon-font-7-stroke/pe-icon-7-stroke/css/helper.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css" 
+    integrity="sha512-3icgkoIO5qm2D4bGSUkPqeQ96LS8+ukJC7Eqhl1H5B2OJMEnFqLmNDxXVmtV/eq5M65tTDkUYS/Q0P4gvZv+yA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js" 
+    integrity="sha512-ia48mJh6IXv6baAI07Ib/crgsG/MD4tbSnOndWLo3GSExMhYsn1xPbni40VamCaXWk79t1dxi/JahsqOFazkew==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/brands.js" 
+    integrity="sha512-4OHJeA6A9ngwoLPOjWntlmQPslsRZkZ4OuE0RjsXT/0rrcTCxpHpZih/l957P1KzmdavHtrYORgF0vGZZXMt+g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/solid.js" 
+    integrity="sha512-214WACfw8By6SK2rn8EraQdxNjw+bKoKybtPXvufEdCuvC2976Ni84giu91GJweSQz+v2Xt/Y0g0L4JO4ERwWQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.js" 
+    integrity="sha512-mOoijzp+qckT+elyFDKLuqpPnfypnD88LLgXmZT5XHbF+Pd/cU05rNIfYsl2ZBBKm0KT5U/aPWY7hdHxaxkt9w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
 
 </head>
@@ -29,11 +44,14 @@
             <ul class="navbar-nav flex-row gap-4 align-items-center">
 
               <!-- Dropdown -->
-                <li class="nav-item c-dropdown">
-                  English
+                <li class="nav-item nav-link c-dropdown">
+                  English 
+                  <span class="gap-0">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </span>
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      English                
+                      English              
                     </li>
                     <li class="nav-item">
                       French                
@@ -45,13 +63,31 @@
                 </li>
 
 
-                <li class="li-bar"></li>
-                <li class="nav-item">
-                  USD                
+                <li class="li-bar nav-link"></li>
+
+
+                <li class="nav-item nav-link c-dropdown">
+                  USD 
+                  <span class="gap-0">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      USD              
+                    </li>
+                    <li class="nav-item">
+                      EUR                
+                    </li>
+                    <li class="nav-item">
+                      GBP                
+                    </li>             
+                  </ul>
                 </li>
+
+
                 <li class="li-bar"></li>
 
-                <li class="nav-item">
+                <li class="nav-item nav-link">
                   Call Us 3965410                
                 </li>
               </div>
@@ -66,7 +102,7 @@
 
             <!-- NAVBAR Right -->
 
-            <ul class="navbar-nav flex-row gap-3">
+            <ul class="navbar-nav flex-row gap-3 mt-2">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">
                     <i class="pe-7s-search pe-2x"></i>
@@ -127,14 +163,148 @@
             </ul>
             <div> </div>
         </div>
-
-        <div class="c-dropdown">
-
-        </div>
       </nav>
 
+      <!-- Carousel -->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-content">
+                <div>
+                  <h3>-20% off All Items</h3>
+                  <h1>Green Up Your Room</h1>
+                  <button class="btn-lg btn-c">
+                    Shop Now
+                  </button>
+                </div>
+                <div>              
+                  <img src="./images/single-slide-11-1.png"  alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <div>
+                  <h3>-40% off All Items</h3>
+                  <h1>Summer Offer 2021 Collection</h1>
+                  <button class="btn-lg btn-c">
+                    Shop Now
+                  </button>
+                </div>
+                <div>              
+                  <img src="./images/single-slide-11-2.png"  alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
 
+      <!-- Banner  -->
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="single-banner">
+              <a href="#">
+                <img src="/images/banner-13.png" alt="">
+              </a>
+              <div class="banner-content">
+                <h3>Peepal</h3>
+                <h4>
+                  Starting at
+                  <span>$99.00</span>
+                </h4>
+                <a href="">
+                   <i class="fa fa-long-arrow-alt-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="single-banner">
+              <a href="#">
+                <img src="/images/banner-14.png" alt="">
+              </a>
+              <div class="banner-content">
+                <h3>Banyan</h3>
+                <h4>
+                  Starting at
+                  <span>$79.00</span>
+                </h4>
+                <a href="">
+                   <i class="fa fa-long-arrow-alt-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="single-banner">
+              <a href="#">
+                <img src="/images/banner-15.png" alt="">
+              </a>
+              <div class="banner-content">
+                <h3>Aloe Vera</h3>
+                <h4>
+                  Starting at
+                  <span>$29.00</span>
+                </h4>
+                <a href="">
+                   <i class="fa fa-long-arrow-alt-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Title -->
+      <div class="container">
+        <div class="section-title text-center">
+            <h3>DAILY DEALS!</h3>
+            <p></p>
+        </div>
+        <div class="order-firsts"></div>
+        <div class="product-tab-list nav nav-pills text-center" role="tablist">
+          <div class="nav-item">
+            <a href="#" class="nav-link active" role="tab">
+              <h4>New Arrival</h4>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="nav-link" role="tab">
+              <h4>Best Sellers</h4>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="#" class="nav-link" role="tab">
+              <h4>Sale Items</h4>
+            </a>
+          </div>
+        </div>
+        <div></div>
+      </div>
+
+      
+
+
+      <!-- Script -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     
