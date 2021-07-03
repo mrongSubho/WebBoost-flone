@@ -5,10 +5,24 @@ body {
   width: 100hw;
 }
 
+.container {
+  width: 1170px !important;
+}
+
 .li-bar {
   background-color: #c5c4c4;
   width: 1px;
   height: 1rem;
+}
+
+.nav-link i {
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+.nav-link i:hover {
+  color: #a749ff;
 }
 
 .c-dropdown {
@@ -28,16 +42,20 @@ body {
   border-radius: 0.15rem;
   margin-top: 0.15rem;
 }
-.c-dropdown ul li {
+.c-dropdown li {
   font-size: 13px;
   line-height: 27px;
   font-weight: 400;
   font-style: normal;
   color: #000;
 }
+.c-dropdown li:hover {
+  color: #a749ff;
+}
 .c-dropdown:hover ul {
   transform: scaleY(1);
   display: block;
+  color: #a749ff;
 }
 
 #carouselExampleIndicators .carousel-inner {
