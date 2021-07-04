@@ -1,0 +1,54 @@
+
+#carouselExampleIndicators .carousel-inner{
+	height: 600px;
+	background: #f6f6f6;
+}
+
+.carousel-control-prev{
+	left: -10rem;
+	filter: invert(100%);
+}
+
+.carousel-control-next{
+	right: -10rem;
+	filter: invert(100%);
+}
+
+.carousel-content{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex: 1;
+	h1{
+		font-size: 72px;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 97px;
+	}
+	h3{
+		font-size: 24px;
+		font-weight: 500;
+		font-style: normal;
+		line-height: 30px;
+	}
+
+	.btn-c{
+		margin-top: 3rem;
+		padding: 0.8rem 3rem;
+		border: 1px solid black;
+	    border-radius: none;
+		width: 200px;
+		height: 60px;
+		display: block;
+		outline: none;
+		background: linear-gradient(to right, purple 50%, white 50%);
+		background-size: 200% 100%;
+		background-position: right bottom;
+		transition: all .5s ease-out;
+
+		&:hover {
+			background-position: left bottom;
+		  }
+	}
+}

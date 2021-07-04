@@ -1,0 +1,27 @@
+// Section Title
+
+.section-title{
+	
+	h3{
+		font-size: 36px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: 30px;
+		display: inline-block;
+		position: relative;
+		&::before, &::after{
+			position: absolute;
+			content: "";
+			top: 17px;
+			width: 80px;
+			height: 2px;
+			background-color: #000;
+		}
+		&::before{
+			left: -100px;
+		}
+		&::after{
+			right: -100px;
+		}
+	}
+}

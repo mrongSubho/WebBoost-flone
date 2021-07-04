@@ -1,0 +1,26 @@
+	//Tab List
+	
+	.product-tab-list{
+		justify-content: center;
+		padding-top: 30px;
+		padding-bottom: 55px;
+
+		.nav-link{
+			background-color: transparent !important;
+			margin: 0 12px;
+			display: inline-block;
+			padding: 8px 16px;
+		}
+		a h4{
+			font-size: 18px;
+			font-weight: 500;
+			font-style: normal;
+			line-height: 24px;
+			color: #555;
+			transition: all .3s ease 0s;
+			// transition: all .5s ease-in-out 0s;
+		}
+		a.active h4, a h4:hover{
+			color: #000;
+		}
+	}
