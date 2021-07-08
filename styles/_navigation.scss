@@ -1,0 +1,104 @@
+// NAVIGATION
+.li-bar{
+    background-color: #c5c4c4;
+    width: 1px;
+    height: 1rem;
+}
+.nav-link {
+    font-size: 13px;
+    line-height: 13px;
+    color: #555252 !important;
+    position: relative;
+	cursor: pointer;
+    &:hover {
+      color: #a749ff !important ;
+    }
+	i{
+		font-size: 23px;
+		font-weight: 400;
+		font-style: normal;
+		color: #000;
+		&:hover{
+			color: #a749ff;
+		}
+	}
+	.badges {
+		font-size: 12px;
+		line-height: 21px;
+		position: absolute;
+		top: -9px;
+		right: -14px;
+		display: inline-block;
+		width: 21px;
+		height: 21px;
+		text-align: center;
+		color: #fff;
+		border-radius: 100%;
+		background-color: #000;
+	  }
+}
+  .dropdown-m {
+    position: relative;
+	strong a {
+		font-size: 14px;
+		line-height: 32px;
+		font-weight: 500;
+	  }
+    ul{
+      position: absolute;
+      top: 40px;
+      transform-origin: top;
+      transform: scaleY(0);
+      transition: all 0.5s ease 0s;
+      z-index: 220;
+      background-color: #fff !important; 
+      box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
+      border-radius: 4px;
+      padding: 1rem;
+    }
+    .home-menu {
+      @extend ul;
+      width: 720px;
+      max-height: 550px;
+    }
+    .shop-menu {
+      @extend ul;
+      width: 700px;
+      max-height: 550px;
+    }
+    .pages-menu{
+      @extend ul;
+      width: 120px;
+      max-height: 400px;
+    }
+    .blog-menu{
+      @extend ul;
+      width: 120px;
+      max-height: 300px;
+    }
+	.nav-menu{
+			@extend ul;
+			min-width: 125px;
+			margin-top: 00.15rem;
+	}
+    .li-effect {
+      position: relative;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        list-style: disc;
+        color: #a749ff;
+        transform: translateX(15px);
+      }
+    }
+    &:hover ul{
+      visibility: visible;
+      opacity: 1;
+      transform: scaleY(1);
+	  cursor: pointer;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,137 @@
+
+
+// NAVIGATION
+.li-bar{
+    background-color: #c5c4c4;
+    width: 1px;
+    height: 1rem;
+}
+.nav-link{
+	i{
+		font-size: 23px;
+		font-weight: 400;
+		font-style: normal;
+		color: #000;
+		&:hover{
+			color: #a749ff;
+		}
+
+	}
+}
+.count-style {
+    font-size: 12px;
+    line-height: 21px;
+    position: absolute;
+    top: -9px;
+    right: -14px;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #000;
+  }
+
+.c-dropdown {
+	position: relative;
+	ul {
+		position: absolute;
+        min-width: 125px;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: all 0.5s ease 0s;
+        background-color: #fff;
+        box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+        padding: 1rem;
+        line-height: .8;
+        z-index: 220;
+		border-radius: 00.15rem;
+		margin-top: 00.15rem;	
+		strong a {
+			font-size: 14px;
+			line-height: 32px;
+			font-weight: 500;
+			color: #000;
+		  }	
+		}
+        li {
+            font-size: 13px;
+			line-height: 27px;
+			font-weight: 400;
+			font-style: normal;
+			color: #000;
+			&:hover{
+				color: #a749ff;
+				a{
+					color: #a749ff;
+				}
+        }
+
+	}
+	&:hover {
+		ul {
+			transform: scaleY(1);
+			display: block;
+			a{
+				color: #a749ff;
+			}
+			
+		}
+	}
+}
+// Secondary Nav
+@mixin megamenu($width, $height) {
+	visibility: hidden;
+	box-sizing: border-box;
+	opacity: 0;
+	margin: 0 -20px;
+	position: absolute;
+	width: $width;
+	height: $height;
+	transform-origin: top;
+	transform: scaleY(0);
+	transition: all 0.5s ease 0s;
+	z-index: 100;
+	box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
+	border-radius: 4px;
+	top: 50px;
+  }
+.mega-menu {
+	position: relative;
+  
+	&:hover &-item {
+	  visibility: visible;
+	  opacity: 1;
+	  background: #f6f6f6;
+	  transform: scaleY(1);
+	}
+	&-item {
+	  @include megamenu(740px, 580px);
+	  padding: 1rem;
+	}
+	&:hover &-item-1 {
+	  visibility: visible;
+	  opacity: 1;
+	  background: #f6f6f6;
+	  transform: scaleY(1);
+	}
+	&-item-1 {
+	  @include megamenu(710px, 440px);
+	  padding: 2rem;
+	}
+	li {
+	  position: relative;
+	  transition: all 0.5s ease-in-out;
+	  &:hover {
+		list-style: disc;
+		color: #a749ff;
+		transform: translateX(15px);
+	  }
+	}
+}
+
+
+
+
+
