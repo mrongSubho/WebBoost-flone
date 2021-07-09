@@ -1,0 +1,125 @@
+.login-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    .wrapper {
+            .tablist {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 40px;
+                .nav-item {
+                    position: relative;
+                    a {
+                        background: none;
+                        padding: 0;
+            
+                        h4 {
+                            font-size: 25px;
+                            font-weight: 700;
+                            margin: 0 20px;
+                            text-transform: capitalize;
+                            transition: all 0.3s ease 0s;
+                        }
+                        // &:last-child::before {
+                        //   display: none;
+                        // }
+                    }
+                    a.active h4 {
+                        color: #a749ff;
+                    }
+            
+                    &:before {
+                        background-color: #454545;
+                        bottom: 5px;
+                        content: "";
+                        height: 18px;
+                        margin: 0 auto;
+                        position: absolute;
+                        right: -2px;
+                        transition: all 0.4s ease 0s;
+                        width: 1px;
+                    }
+            
+                    &:last-child {
+                        &::before {
+                        display: none;
+                        }
+                    }
+                }
+        }
+        .form-container {
+            background: transparent none repeat scroll 0 0;
+            box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+            padding: 80px;
+            text-align: left;
+            width: 100%;
+    
+            form {
+                display: block;
+    
+                input.username,
+                input.password {
+                    background-color: transparent;
+                    border: 1px solid #ebebeb;
+                    color: #333;
+                    font-size: 14px;
+                    height: 45px;
+                    margin-bottom: 30px;
+                    padding: 0 15px;
+                    width: 100%;
+                    outline: none;
+                    text-transform: capitalize;
+                }
+                .button-area {
+                    padding: 10px 0 19px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+        
+                    .checkbox {
+                        input[type="checkbox"] {
+                            padding-right: 20px;
+                            display: inline-block;
+                            height: 15px;
+                            width: 15px;
+                    }
+        
+                        span {
+                            padding-left: 10px;
+                        }
+                    }
+        
+                    .forget-password {
+                        a {
+                            text-decoration: none;
+                            color: #333;
+                            display: inline-block;
+                            margin-right: auto;
+                        }
+                    }
+                }
+        
+                .login-button {
+                    margin-top: 10px;
+                    button {
+                        background-color: #f2f2f2;
+                        border: none;
+                        color: #333;
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 1;
+                        padding: 11px 30px;
+                        text-transform: uppercase;
+                        transition: all 0.3s ease 0s;
+                        &:hover {
+                            background: #a749ff;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  

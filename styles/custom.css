@@ -994,6 +994,110 @@ body {
   color: #f6f6f6;
 }
 
+.login-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.login-area .wrapper .tablist {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.login-area .wrapper .tablist .nav-item {
+  position: relative;
+}
+.login-area .wrapper .tablist .nav-item a {
+  background: none;
+  padding: 0;
+}
+.login-area .wrapper .tablist .nav-item a h4 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+.login-area .wrapper .tablist .nav-item a.active h4 {
+  color: #a749ff;
+}
+.login-area .wrapper .tablist .nav-item:before {
+  background-color: #454545;
+  bottom: 5px;
+  content: "";
+  height: 18px;
+  margin: 0 auto;
+  position: absolute;
+  right: -2px;
+  transition: all 0.4s ease 0s;
+  width: 1px;
+}
+.login-area .wrapper .tablist .nav-item:last-child::before {
+  display: none;
+}
+.login-area .wrapper .form-container {
+  background: transparent none repeat scroll 0 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  padding: 80px;
+  text-align: left;
+  width: 100%;
+}
+.login-area .wrapper .form-container form {
+  display: block;
+}
+.login-area .wrapper .form-container form input.username,
+.login-area .wrapper .form-container form input.password {
+  background-color: transparent;
+  border: 1px solid #ebebeb;
+  color: #333;
+  font-size: 14px;
+  height: 45px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  width: 100%;
+  outline: none;
+  text-transform: capitalize;
+}
+.login-area .wrapper .form-container form .button-area {
+  padding: 10px 0 19px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.login-area .wrapper .form-container form .button-area .checkbox input[type=checkbox] {
+  padding-right: 20px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+.login-area .wrapper .form-container form .button-area .checkbox span {
+  padding-left: 10px;
+}
+.login-area .wrapper .form-container form .button-area .forget-password a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-right: auto;
+}
+.login-area .wrapper .form-container form .login-button {
+  margin-top: 10px;
+}
+.login-area .wrapper .form-container form .login-button button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 11px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.login-area .wrapper .form-container form .login-button button:hover {
+  background: #a749ff;
+  color: white;
+}
+
 /*
 
 
