@@ -5,11 +5,11 @@
     height: 1rem;
 }
 .nav-link {
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 14px;
+    line-height: 14px;
     color: #555252 !important;
     position: relative;
-	cursor: pointer;
+	  cursor: pointer;
     &:hover {
       color: #a749ff !important ;
     }
@@ -81,7 +81,7 @@
 			min-width: 125px;
 			margin-top: 00.15rem;
 	}
-    .li-effect {
+    li {
       position: relative;
       transition: all 0.5s ease-in-out;
       &:hover {

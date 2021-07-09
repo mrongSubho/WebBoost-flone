@@ -1,0 +1,18 @@
+.breadcrumb{
+    padding: 35px 0;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+        h4{
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            a {
+                font-weight: 500;
+                color: #5b5858;
+                text-decoration: none;
+                &:hover{
+                    color: #a749ff;
+                }
+        }    }
+}

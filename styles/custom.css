@@ -6,10 +6,6 @@ body {
   width: 100hw;
 }
 
-.container {
-  max-width: 1170px !important;
-}
-
 .li-bar {
   background-color: #c5c4c4;
   width: 1px;
@@ -17,8 +13,8 @@ body {
 }
 
 .nav-link {
-  font-size: 13px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 14px;
   color: #555252 !important;
   position: relative;
   cursor: pointer;
@@ -90,11 +86,11 @@ body {
   min-width: 125px;
   margin-top: 0.15rem;
 }
-.dropdown-m .li-effect {
+.dropdown-m li {
   position: relative;
   transition: all 0.5s ease-in-out;
 }
-.dropdown-m .li-effect:hover {
+.dropdown-m li:hover {
   list-style: disc;
   color: #a749ff;
   transform: translateX(15px);
@@ -684,7 +680,7 @@ body {
 }
 .product-wrapC .product-img .img-badges {
   position: absolute;
-  top: 115px;
+  top: 140px;
   right: 12px;
 }
 .product-wrapC .product-img .img-badges span {
@@ -772,10 +768,236 @@ body {
   opacity: 1;
 }
 
+.breadcrumb {
+  padding: 35px 0;
+  margin-top: 20px;
+  background-color: #f1f1f1;
+}
+.breadcrumb h4 {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.breadcrumb h4 a {
+  font-weight: 500;
+  color: #5b5858;
+  text-decoration: none;
+}
+.breadcrumb h4 a:hover {
+  color: #a749ff;
+}
+
+.shopping-area {
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+.shopping-area .left-sidebar {
+  margin-right: 30px;
+}
+.shopping-area .left-sidebar .widget {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.shopping-area .left-sidebar .widget h4 {
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+.shopping-area .left-sidebar .widget .search {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.shopping-area .left-sidebar .widget .search .search-form {
+  position: relative;
+}
+.shopping-area .left-sidebar .widget .search .search-form input {
+  font-size: 14px;
+  height: 43px;
+  padding: 2px 55px 2px 18px;
+  color: #000;
+  border: 1px solid #e6e6e6;
+  outline: none;
+}
+.shopping-area .left-sidebar .widget .search .search-form button {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  transform: translateY(-50%);
+  color: #000;
+  border: #a1a5aa;
+  border-left: 1px solid #a1a5aa;
+  border-image: none;
+  background: transparent none repeat scroll 0 0;
+}
+.shopping-area .left-sidebar .widget .list-item {
+  margin-top: 30px;
+}
+.shopping-area .left-sidebar .widget .list-item ul, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.shopping-area .left-sidebar .widget .list-item ul li, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu li, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu li, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu li, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu li, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu li, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu li, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu li, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu li, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu li, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu li {
+  padding: 0 0 15px;
+}
+.shopping-area .left-sidebar .widget .list-item ul li .list button, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu li .list button, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu li .list button, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu li .list button, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu li .list button, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu li .list button, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu li .list button, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu li .list button, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu li .list button, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu li .list button, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu li .list button {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 30px;
+  text-align: left;
+  text-transform: capitalize;
+  border: none;
+  background: none;
+  font-size: 0.875rem;
+  line-height: 24px;
+}
+.shopping-area .left-sidebar .widget .list-item ul li .list button:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu li .list button:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu li .list button:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu li .list button:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu li .list button:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu li .list button:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu li .list button:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu li .list button:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu li .list button:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu li .list button:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu li .list button:hover {
+  color: #BB75FD;
+}
+.shopping-area .left-sidebar .widget .list-item ul li .list button .checkbox, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu li .list button .checkbox, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu li .list button .checkbox, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu li .list button .checkbox, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu li .list button .checkbox, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu li .list button .checkbox, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu li .list button .checkbox, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu li .list button .checkbox, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu li .list button .checkbox, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu li .list button .checkbox, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu li .list button .checkbox {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #888;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.shopping-area .left-sidebar .widget .list-item ul li .list button .checkbox:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .home-menu li .list button .checkbox:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .home-menu li .list button .checkbox:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .shop-menu li .list button .checkbox:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .shop-menu li .list button .checkbox:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .pages-menu li .list button .checkbox:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .pages-menu li .list button .checkbox:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .blog-menu li .list button .checkbox:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .blog-menu li .list button .checkbox:hover, .shopping-area .left-sidebar .widget .list-item .dropdown-m .nav-menu li .list button .checkbox:hover, .dropdown-m .shopping-area .left-sidebar .widget .list-item .nav-menu li .list button .checkbox:hover {
+  background: #BB75FD;
+}
+.shopping-area .left-sidebar .widget .widget-tag {
+  margin-top: 25px;
+}
+.shopping-area .left-sidebar .widget .widget-tag ul, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .home-menu, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .home-menu, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .shop-menu, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .shop-menu, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .pages-menu, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .pages-menu, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .blog-menu, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .blog-menu, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .nav-menu, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.shopping-area .left-sidebar .widget .widget-tag ul li, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .home-menu li, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .home-menu li, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .shop-menu li, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .shop-menu li, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .pages-menu li, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .pages-menu li, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .blog-menu li, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .blog-menu li, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .nav-menu li, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .nav-menu li {
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+.shopping-area .left-sidebar .widget .widget-tag ul li button, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .home-menu li button, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .home-menu li button, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .shop-menu li button, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .shop-menu li button, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .pages-menu li button, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .pages-menu li button, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .blog-menu li button, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .blog-menu li button, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .nav-menu li button, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .nav-menu li button {
+  line-height: 1;
+  display: inline-block;
+  padding: 9px 17px 9px;
+  text-transform: capitalize;
+  color: #424242;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  background-color: #f6f6f6;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.shopping-area .left-sidebar .widget .widget-tag ul li button:hover, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .home-menu li button:hover, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .home-menu li button:hover, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .shop-menu li button:hover, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .shop-menu li button:hover, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .pages-menu li button:hover, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .pages-menu li button:hover, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .blog-menu li button:hover, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .blog-menu li button:hover, .shopping-area .left-sidebar .widget .widget-tag .dropdown-m .nav-menu li button:hover, .dropdown-m .shopping-area .left-sidebar .widget .widget-tag .nav-menu li button:hover {
+  background-color: #a749ff;
+  color: #f6f6f6;
+}
+.shopping-area .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.shopping-area .top-bar .option-wrapper {
+  display: flex;
+}
+.shopping-area .top-bar .option-wrapper .option {
+  margin-right: 50px;
+}
+.shopping-area .top-bar .option-wrapper .option select {
+  font-size: 14px;
+  min-width: 143px;
+  padding: 5px;
+  color: #606060;
+  border: 1px solid #e6e6e6;
+  outline: none;
+}
+.shopping-area .top-bar .option-wrapper .option select option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  outline: none;
+}
+.shopping-area .top-bar .option-wrapper p {
+  display: block;
+}
+.shopping-area .top-bar .tab-view button {
+  font-size: 1.125rem;
+  padding: 0;
+  color: #606060;
+  border: none;
+  background: none;
+  margin-left: 20px;
+}
+.shopping-area .top-bar .tab-view button:first-child {
+  margin-left: 0;
+}
+.shopping-area .top-bar .tab-view button:hover {
+  color: #BB75FD;
+}
+.shopping-area .bottom-area {
+  margin-top: 35px;
+}
+.shopping-area .pagination {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.shopping-area .pagination ul, .shopping-area .pagination .dropdown-m .home-menu, .dropdown-m .shopping-area .pagination .home-menu, .shopping-area .pagination .dropdown-m .shop-menu, .dropdown-m .shopping-area .pagination .shop-menu, .shopping-area .pagination .dropdown-m .pages-menu, .dropdown-m .shopping-area .pagination .pages-menu, .shopping-area .pagination .dropdown-m .blog-menu, .dropdown-m .shopping-area .pagination .blog-menu, .shopping-area .pagination .dropdown-m .nav-menu, .dropdown-m .shopping-area .pagination .nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.shopping-area .pagination ul li, .shopping-area .pagination .dropdown-m .home-menu li, .dropdown-m .shopping-area .pagination .home-menu li, .shopping-area .pagination .dropdown-m .shop-menu li, .dropdown-m .shopping-area .pagination .shop-menu li, .shopping-area .pagination .dropdown-m .pages-menu li, .dropdown-m .shopping-area .pagination .pages-menu li, .shopping-area .pagination .dropdown-m .blog-menu li, .dropdown-m .shopping-area .pagination .blog-menu li, .shopping-area .pagination .dropdown-m .nav-menu li, .dropdown-m .shopping-area .pagination .nav-menu li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.shopping-area .pagination ul li .active, .shopping-area .pagination .dropdown-m .home-menu li .active, .dropdown-m .shopping-area .pagination .home-menu li .active, .shopping-area .pagination .dropdown-m .shop-menu li .active, .dropdown-m .shopping-area .pagination .shop-menu li .active, .shopping-area .pagination .dropdown-m .pages-menu li .active, .dropdown-m .shopping-area .pagination .pages-menu li .active, .shopping-area .pagination .dropdown-m .blog-menu li .active, .dropdown-m .shopping-area .pagination .blog-menu li .active, .shopping-area .pagination .dropdown-m .nav-menu li .active, .dropdown-m .shopping-area .pagination .nav-menu li .active {
+  background-color: #a749ff;
+  color: #f6f6f6;
+}
+.shopping-area .pagination ul li button, .shopping-area .pagination .dropdown-m .home-menu li button, .dropdown-m .shopping-area .pagination .home-menu li button, .shopping-area .pagination .dropdown-m .shop-menu li button, .dropdown-m .shopping-area .pagination .shop-menu li button, .shopping-area .pagination .dropdown-m .pages-menu li button, .dropdown-m .shopping-area .pagination .pages-menu li button, .shopping-area .pagination .dropdown-m .blog-menu li button, .dropdown-m .shopping-area .pagination .blog-menu li button, .shopping-area .pagination .dropdown-m .nav-menu li button, .dropdown-m .shopping-area .pagination .nav-menu li button {
+  font-size: 0.875rem;
+  line-height: 35px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  text-align: center;
+  color: #a749ff;
+  border: none;
+  border-radius: 50% !important;
+  background: none;
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+  transition: 0.5s;
+}
+.shopping-area .pagination ul li button .page-link, .shopping-area .pagination .dropdown-m .home-menu li button .page-link, .dropdown-m .shopping-area .pagination .home-menu li button .page-link, .shopping-area .pagination .dropdown-m .shop-menu li button .page-link, .dropdown-m .shopping-area .pagination .shop-menu li button .page-link, .shopping-area .pagination .dropdown-m .pages-menu li button .page-link, .dropdown-m .shopping-area .pagination .pages-menu li button .page-link, .shopping-area .pagination .dropdown-m .blog-menu li button .page-link, .dropdown-m .shopping-area .pagination .blog-menu li button .page-link, .shopping-area .pagination .dropdown-m .nav-menu li button .page-link, .dropdown-m .shopping-area .pagination .nav-menu li button .page-link {
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+}
+.shopping-area .pagination ul li button:hover, .shopping-area .pagination .dropdown-m .home-menu li button:hover, .dropdown-m .shopping-area .pagination .home-menu li button:hover, .shopping-area .pagination .dropdown-m .shop-menu li button:hover, .dropdown-m .shopping-area .pagination .shop-menu li button:hover, .shopping-area .pagination .dropdown-m .pages-menu li button:hover, .dropdown-m .shopping-area .pagination .pages-menu li button:hover, .shopping-area .pagination .dropdown-m .blog-menu li button:hover, .dropdown-m .shopping-area .pagination .blog-menu li button:hover, .shopping-area .pagination .dropdown-m .nav-menu li button:hover, .dropdown-m .shopping-area .pagination .nav-menu li button:hover {
+  background-color: #a749ff;
+  color: #f6f6f6;
+}
+
 /*
 
 
-sass ./styles/custom/custom.scss ./styles/custom.css
+sass ./styles/custom.scss ./styles/custom.css
 
 
 */

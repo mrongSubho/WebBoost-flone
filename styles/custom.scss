@@ -9,24 +9,22 @@ body{
 	width: 100hw;
 }
 
-.container{
-	max-width: 1170px !important;
-}
-
 @import "./navigation";
 @import "./carousel";
 @import "./banner";
 @import "./section-title";
 @import "./tab-list";
-@import "./product-contents";
+@import "./product-plants";
 @import "./support";
 @import "./footer";
 @import "./product-collection";
+@import "./breadcrumb";
+@import "./shopping-area";
 
 /*
 
 
-sass ./styles/custom/custom.scss ./styles/custom.css
+sass ./styles/custom.scss ./styles/custom.css
 
 
 */
